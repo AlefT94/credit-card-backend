@@ -133,12 +133,6 @@ app.post('/login',(req,res)=>{
     }
 })
 
-app.get('/',(req,res)=>{
-    res.json({
-        message:'funcionou'
-    })
-})
-
 
 //inicia o servidor WEB. Deve ser a ultima linha do código
 app.listen(port, function(req,res){
